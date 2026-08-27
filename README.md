@@ -76,9 +76,8 @@ O projeto abrange a análise de 6 datasets distintos do ecossistema energético 
 │   ├── solar_power_generation_sample.csv
 │   ├── wind_solar_energy_sample.csv
 │   └── household_power_consumption_sample.csv
-├── notebooks/
-│   └── analise_dados.ipynb  # Notebook principal contendo os exercícios
-└── README.md                                # Documentação do repositório
+├── analise_dados.ipynb    # Notebook principal contendo os exercícios
+└── README.md              # Documentação do repositório
 ```
 
 ---
