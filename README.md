@@ -64,6 +64,10 @@ O projeto abrange a análise de 6 datasets distintos do ecossistema energético 
 * **Cenário:** Monitoramento de alta demanda elétrica residencial e sobrecarga de corrente.
 * **Destaques:** Limpeza de registros ausentes (`NaN`), cálculo do limiar de 75% da Potência Ativa Média e aplicação de condição simultânea com a Corrente Média ($4,6376\text{ A}$), comprovando intersecção total ($A \cap B = A$) dada a intensidade da demanda.
 
+### Dataset 7 (Desafio Final) — Análise de Carga Elétrica na Região de São Paulo (SP) 
+* **Cenário:** Análise descritiva e comportamental da carga elétrica no sistema de São Paulo com amostragem temporal contínua a cada 30 minutos (total de 336 registros).
+* **Destaques:** Cálculo dos principais indicadores estatísticos, aplicação de dois critérios de corte comparativos: Limiar de Alta Demanda e Regime Acima da Média, elaboração de um Relatório Técnico rigoroso, estruturado sob diretrizes estritas de validação crítica.
+
 ---
 
 ## Estrutura do Repositório
@@ -76,7 +80,8 @@ O projeto abrange a análise de 6 datasets distintos do ecossistema energético 
 │   ├── solar_power_generation_sample.csv
 │   ├── wind_solar_energy_sample.csv
 │   └── household_power_consumption_sample.csv
-├── analise_dados.ipynb    # Notebook principal contendo os exercícios
+├── exercicios-analise-dados.ipynb    # Notebook principal contendo os exercícios
+├── desafio-final-analise-dados.ipynb #Notebook contendo o dataset 7 (desafio final)
 └── README.md              # Documentação do repositório
 ```
 
